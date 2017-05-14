@@ -1,0 +1,19 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pdf:2017:slides": "ls pdf-generation-2017-05-18/slides | sort --version-sort | jq -R \".\" | jq -S -s . > pdf-generation-2017-05-18/slides.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ginden/presentations.git"
+  },
+  "author": "Michał Wadas <michalwadas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ginden/presentations/issues"
+  },
+  "homepage": "https://github.com/Ginden/presentations#readme"
+}

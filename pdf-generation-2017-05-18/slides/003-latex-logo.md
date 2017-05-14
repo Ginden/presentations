@@ -1,0 +1,1 @@
+<img src="latex.png" style="width: 100%">
