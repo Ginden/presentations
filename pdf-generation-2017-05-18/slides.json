@@ -5,5 +5,8 @@
   "003-latex-logo.md",
   "005-latex-intro.md",
   "006-latex-code.md",
-  "007-latex-result.md"
+  "007-latex-transform.md",
+  "008-latex-result.md",
+  "009-xsl-fo-logo-and-flow.md",
+  "010-xsl-fo-intro.md"
 ]
