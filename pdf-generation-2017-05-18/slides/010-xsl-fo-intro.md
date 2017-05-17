@@ -9,12 +9,10 @@
 
 # Cons
 
-* Limited tooling - **Apache FOP** for free and few expensive (like 5 thousands dollars) 
-commercial solutions with limited documentation
-* XML
+* Limited tooling - you can get **Apache FOP** for free or pay 5000 dollars for commercial tools
 * Formatting and text setting is poor - on par with CSS1/CSS2 possibilities (and often worse)
 * Almost no community
-* XML
-* Prehistoric - even specification development is dead for almost 3 years
+* Prehistoric - last specification version was released 5 years ago
 * Writing XML by hand is a pain. Writing XSLT - too.
-* Did I mention XML?
+* Formatting must be done inline - styles and content aren't separated at all
+  * People use templates as workaround

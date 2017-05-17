@@ -8,5 +8,19 @@
   "007-latex-transform.md",
   "008-latex-result.md",
   "009-xsl-fo-logo-and-flow.md",
-  "010-xsl-fo-intro.md"
+  "010-xsl-fo-intro.md",
+  "011-xsl-fo-code.md",
+  "012-xsl-fo-transform.md",
+  "013-xsl-fo-result.md",
+  "014-html-intro.md",
+  "015-html-code.md",
+  "016-html-phantom-transform.md",
+  "017-html-electron-transform.md",
+  "018-html-headless-chrome-transform.md",
+  "019-html-phantom-result.md",
+  "020-html-electron-result.md",
+  "021-html-chrome-result.md",
+  "021-html-compare.md",
+  "022-other-solutions.md",
+  "023-about-me.md"
 ]
