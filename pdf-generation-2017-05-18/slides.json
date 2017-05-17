@@ -16,11 +16,11 @@
   "015-html-code.md",
   "016-html-phantom-transform.md",
   "017-html-electron-transform.md",
-  "018-html-headless-chrome-transform.md",
-  "019-html-phantom-result.md",
+  "019-html-wkhtmltopdf-transform.md",
   "020-html-electron-result.md",
-  "021-html-chrome-result.md",
-  "021-html-compare.md",
-  "022-other-solutions.md",
-  "023-about-me.md"
+  "021-html-phantom-result.md",
+  "022-html-wk-result.md",
+  "023-html-compare.md",
+  "024-other-solutions.md",
+  "025-about-me.md"
 ]

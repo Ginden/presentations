@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pdf:2017:slides": "ls pdf-generation-2017-05-18/slides | sort --version-sort | jq -R \".\" | jq -S -s . > pdf-generation-2017-05-18/slides.json"
+    "pdf:2017:slides": "ls pdf-generation-2017-05-18/slides | sort --version-sort | jq -R \".\" | jq -S -s . > pdf-generation-2017-05-18/slides.json",
+    "pdf:2017:phantom": "cd pdf-generation-2017-05-18/help-materials && phantomjs rasterize.js invoice.html phantom.pdf",
+    "pdf:2017:electron": "cd pdf-generation-2017-05-18/help-materials && electron-pdf invoice.html electron.pdf",
+    "pdf:2017:wkhtml2pdf": "cd pdf-generation-2017-05-18/help-materials && wkhtmltopdf invoice.html wkhtmltopdf.pdf",
+    "pdf:2017:pdf2jpg": "cd pdf-generation-2017-05-18/help-materials && convert -density 150 electron.pdf ../electron.jpg && convert -density 150 phantom.pdf ../phantom.jpg && convert -density 150 wkhtmltopdf.pdf ../wk.jpg",
+    "pdf:2017:html2pdf": "npm run pdf:2017:phantom && npm run pdf:2017:electron && npm run pdf:2017:wkhtml2pdf && npm run pdf:2017:pdf2jpg"
   },
   "repository": {
     "type": "git",
